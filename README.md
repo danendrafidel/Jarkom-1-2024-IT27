@@ -20,7 +20,7 @@
 
 ![Cuplikan layar 2024-09-19 000257](https://github.com/user-attachments/assets/0b63b5a2-da5b-47ab-81d3-3121c1689003)
 ![Cuplikan layar 2024-09-19 021936](https://github.com/user-attachments/assets/5bf36d7c-22ca-4f96-b48b-430ad73278da)
-![Cuplikan layar 2024-09-19 010931](https://github.com/user-attachments/assets/393716cc-5d20-4822-b408-20753caafb6d
+![Cuplikan layar 2024-09-19 010931](https://github.com/user-attachments/assets/f2f8852a-bc03-4571-a9c4-aeba84d9ffc5)
 
 ### Pegawai Negeri Sebelah
 
