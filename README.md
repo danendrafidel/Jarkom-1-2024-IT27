@@ -19,6 +19,11 @@
   5. Flag ditemukan
      ![Screenshot (145)](https://github.com/user-attachments/assets/70769ff5-c9a7-4dc1-bda2-7b92d9b654ef)
 
+![Cuplikan layar 2024-09-19 000257](https://github.com/user-attachments/assets/bb23a573-f8c8-4ce9-8835-e4b60c7ee1b7)
+![Cuplikan layar 2024-09-19 010931](https://github.com/user-attachments/assets/99de537d-531c-4962-81e6-de57f0340bb8)
+![Cuplikan layar 2024-09-19 011715](https://github.com/user-attachments/assets/7ec5326f-5f91-445f-96e5-61f871bbc38b)
+![Cuplikan layar 2024-09-19 011705](https://github.com/user-attachments/assets/ec484556-d19e-4b33-ba41-896fd5dd4c39)
+
 ### Illegal Breakthrough
 
   Langkah Penyelesaian:
@@ -28,6 +33,9 @@
   3. Lakukan pencarian lebih lanjut pada paket yang mengandung kata kunci "found".
   4. Jawaban soal dan tools yang digunakan, yaitu ffuf-v2.1.0-dev, ditemukan di dalam paket yang berkaitan.
   5. Flag ditemukan
+![Cuplikan layar 2024-09-19 011330](https://github.com/user-attachments/assets/6a94b306-b49d-451b-89cc-d11c7dc5e11c)
+![Cuplikan layar 2024-09-19 011354](https://github.com/user-attachments/assets/94c02213-9108-4c7b-bd28-1b2b2dcdc226)
+
 
 ### Rizzset
 
