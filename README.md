@@ -12,9 +12,12 @@
   Langkah Penyelesaian:
 
   1. Gunakan filter TCP pada Wireshark untuk mencari file pns.csv.
-  2. Setelah file ditemukan, lakukan filter 
-  3. Lanjut pada paket-paket yang berkaitan.
-  4. Flag ditemukan
+  2. Setelah file ditemukan, lakukan filter dengan keyword "password"
+     ![image](https://github.com/user-attachments/assets/2b7ce85f-a6d6-4e96-9a3a-02105df6465d)
+  4. Lanjut pada paket-paket yang berkaitan.
+     ![image](https://github.com/user-attachments/assets/d93b4b6a-3f57-497a-98e6-aee098f5f7be)
+  5. Flag ditemukan
+     ![Screenshot (145)](https://github.com/user-attachments/assets/70769ff5-c9a7-4dc1-bda2-7b92d9b654ef)
 
 ### Illegal Breakthrough
 
