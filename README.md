@@ -96,9 +96,7 @@ cGxzIHJhdGUgc29hbCBpbmkK
 ![Cuplikan layar 2024-09-19 000052](https://github.com/user-attachments/assets/073ecc02-3e22-4d43-a8ca-6584eaf8bf4d)
 ![Cuplikan layar 2024-09-19 000021](https://github.com/user-attachments/assets/415f4457-7ea6-4c82-9077-653d021ecd48)
 
-
-
-### EZ
+## EZ
 
 1. Mencari dengan scrolling dan menemukan file yang berisi jawaban dari pertanyaan nc nya
    ![image](https://github.com/user-attachments/assets/89bf524c-52ed-47b5-9945-30cc461362b8)
@@ -107,7 +105,7 @@ cGxzIHJhdGUgc29hbCBpbmkK
 3. Setelah selesai menjawab pertanyaan nc, maka ketemu Flagnya
    ![Screenshot (146)](https://github.com/user-attachments/assets/93664775-dec1-4db6-a97b-35efd85a8a68)
 
-### FTP Login
+## FTP Login
 
 1. Mencari strem yang Login Successful, karena pertanyannya yang berhasil login
    ![Screenshot (161)](https://github.com/user-attachments/assets/a387bae2-ed99-43c9-8780-18fa03522a3c)
@@ -116,7 +114,7 @@ cGxzIHJhdGUgc29hbCBpbmkK
 
     ![Screenshot 2024-09-18 221534](https://github.com/user-attachments/assets/f35700f4-f506-4570-b2f4-49be94970c1c)
 
-### Packet Barrage
+## Packet Barrage
 
 1. Dari data pada soal illegal, stream yang dipilih menggunakan IP 172.21.80.1 dan 172.21.88.207. Lalu saya mencoba memasukkan  dan ternyata benar
    ![image](https://github.com/user-attachments/assets/2240c06b-c345-48b5-832e-19a72b1963e2)
@@ -126,7 +124,7 @@ cGxzIHJhdGUgc29hbCBpbmkK
 4. Dan ketemulah Flagnya
    ![image](https://github.com/user-attachments/assets/7d43236d-552e-4f7d-aefe-fd80f4d8cc3d)
 
-### Surprise
+## Surprise
 
 1. Mencari stream yang login succesfull pada file ftp login
    ![image](https://github.com/user-attachments/assets/0251fcb1-c7da-49b6-a3b2-5ab525f49a22)
@@ -139,7 +137,7 @@ cGxzIHJhdGUgc29hbCBpbmkK
 
     ![image](https://github.com/user-attachments/assets/060921d8-60be-4e96-acc9-1c8cdb73d567)
 
-### Malicious
+## Malicious
 
 1. Mencari dengan format http.request.method == "GET" dikarenakan get menunjukkan berapa kali attacker mencoba untuk mendapatkan informasi dari server dan mendapatkan strem ini
    ![Screenshot (169)](https://github.com/user-attachments/assets/31aa19df-95d3-4a35-a45b-a12e8a4bf634)
