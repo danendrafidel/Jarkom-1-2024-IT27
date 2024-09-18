@@ -79,16 +79,6 @@ cGxzIHJhdGUgc29hbCBpbmkK
   5. Temukan email admin jojohermawan@gmail.com, dan dekripsi hash password yang menghasilkan admin1234.
   6. Flag ditemukan
 
-### Pegawai Negeri Sebelah
-
-1. Mencari di kolom find packet details "password"
-2. Mencari yang memiliki format nama, password, jabatan
-  ![image](https://github.com/user-attachments/assets/2b7ce85f-a6d6-4e96-9a3a-02105df6465d)
-3. Cari jawaban yang ada di stream tersebut berdasarkan pertanyaan pada terminal
-   ![image](https://github.com/user-attachments/assets/d93b4b6a-3f57-497a-98e6-aee098f5f7be)
-4. Dan ketemu Flagnya
-   ![Screenshot (145)](https://github.com/user-attachments/assets/70769ff5-c9a7-4dc1-bda2-7b92d9b654ef)
-
 ### EZ
 
 1. Mencari dengan scrolling dan menemukan file yang berisi jawaban dari pertanyaan nc nya
@@ -147,6 +137,18 @@ cGxzIHJhdGUgc29hbCBpbmkK
 6. Setelah menjawab maka ketemulah Flagnya
    ![image](https://github.com/user-attachments/assets/b84c3afc-2ef5-4c76-ae99-146b109481ff)
 
+### Corporate Breach
+
+1. Saya mencoba memasukkan keyword http untuk mencari stream, lalu saya mencoba melihat masing-masing stream dan stream ini yang berbeda dikarenakan adanya indikasi nama attacker didalamnya
+   ![image](https://github.com/user-attachments/assets/31b7d304-4607-416a-8736-d8939f7296ca)
+2. Selanjutnya saya mencoba beberapa email yang saya filtermenggunakan @gmail.com
+   ![image](https://github.com/user-attachments/assets/78d93f8d-4ae0-4f19-ae47-7b77d01bd120)
+
+   ![Screenshot (153)](https://github.com/user-attachments/assets/48323798-c86b-4680-a5c6-3a84e05d2ae0)
+4. Lalu pada stream itu terlihat password yang digunakan untuk menjawab pertanyaan dan ketemulah Flagnya
+   ![Screenshot (154)](https://github.com/user-attachments/assets/3834b9dd-fd46-454e-a9e3-ee119a6cef42)
+   
+   ![Screenshot (152)](https://github.com/user-attachments/assets/5b42f320-bd72-4157-8e1a-ed14f2c415ba)
 
 
 
