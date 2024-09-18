@@ -18,6 +18,8 @@
   5. Input hasil Decodenya
   6. Flag muncul
 
+![Cuplikan layar 2024-09-19 000257](https://github.com/user-attachments/assets/0b63b5a2-da5b-47ab-81d3-3121c1689003)
+
 ### Pegawai Negeri Sebelah
 
   Langkah Penyelesaian:
@@ -66,6 +68,9 @@
   4. Hasil fingerprint ditemukan
   5. Muncul Flag
 ![Cuplikan layar 2024-09-19 000852](https://github.com/user-attachments/assets/11956c4e-dbee-42cb-9e8d-f15a7536a2b7)
+![Cuplikan layar 2024-09-19 021156](https://github.com/user-attachments/assets/2654b0f2-4fb5-4cf4-82a3-1685d6668d6e)
+![Cuplikan layar 2024-09-19 021148](https://github.com/user-attachments/assets/bcb5c5d6-56e0-4c14-8a19-2fa86ea6d120)
+
 
 
 ### Stegography
