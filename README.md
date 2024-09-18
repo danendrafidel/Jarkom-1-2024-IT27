@@ -7,6 +7,17 @@
 | 1   | Danendra Fidel Khansa | 5027231063 |
 | 2   | Farida Qurrotu A'yuna | 5027231015 |
 
+### Advancing Sanity
+
+  Langkah Penyelesaian : 
+
+  1. Filter frame contains “username”.
+  2. Filter frame containts “.txt”.
+  3. Pada Clue3.txt ada kalimat untuk membuka PPT.
+  4. Saat melihat Peraturan Soal Shift pada PPT terdapat sesuatu yang harus kita decode menggunakan base64.
+  5. Input hasil Decodenya
+  6. Flag muncul
+
 ### Pegawai Negeri Sebelah
 
   Langkah Penyelesaian:
@@ -70,6 +81,9 @@
 ![Cuplikan layar 2024-09-19 015055](https://github.com/user-attachments/assets/0de293fc-3c0d-40d6-b06a-3f3ae8c53ffc)
 ![Cuplikan layar 2024-09-19 015032](https://github.com/user-attachments/assets/7025379d-8b95-4b7b-ad35-a0569e87cb5a)
 ![Cuplikan layar 2024-09-19 015000](https://github.com/user-attachments/assets/3fd6471c-3214-448b-8460-cf4cf8d70749)
+![Cuplikan layar 2024-09-19 020535](https://github.com/user-attachments/assets/ee5996ac-2ab1-459d-a875-b26bd96d8d4b)
+![Cuplikan layar 2024-09-19 020520](https://github.com/user-attachments/assets/f48fe7aa-5814-4066-8d0b-5c1e11653d2b)
+
 
 ### InneRCE
 
