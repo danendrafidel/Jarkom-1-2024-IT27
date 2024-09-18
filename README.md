@@ -19,6 +19,8 @@
   6. Flag muncul
 
 ![Cuplikan layar 2024-09-19 000257](https://github.com/user-attachments/assets/0b63b5a2-da5b-47ab-81d3-3121c1689003)
+![Cuplikan layar 2024-09-19 021936](https://github.com/user-attachments/assets/5bf36d7c-22ca-4f96-b48b-430ad73278da)
+![Cuplikan layar 2024-09-19 010931](https://github.com/user-attachments/assets/393716cc-5d20-4822-b408-20753caafb6d
 
 ### Pegawai Negeri Sebelah
 
@@ -48,7 +50,7 @@
   5. Flag ditemukan
 ![Cuplikan layar 2024-09-19 011330](https://github.com/user-attachments/assets/6a94b306-b49d-451b-89cc-d11c7dc5e11c)
 ![Cuplikan layar 2024-09-19 011354](https://github.com/user-attachments/assets/94c02213-9108-4c7b-bd28-1b2b2dcdc226)
-
+![Cuplikan layar 2024-09-19 022231](https://github.com/user-attachments/assets/52e585a9-02c1-44c9-b11e-16a56d4cb754)
 
 ### Rizzset
 
@@ -70,8 +72,6 @@
 ![Cuplikan layar 2024-09-19 000852](https://github.com/user-attachments/assets/11956c4e-dbee-42cb-9e8d-f15a7536a2b7)
 ![Cuplikan layar 2024-09-19 021156](https://github.com/user-attachments/assets/2654b0f2-4fb5-4cf4-82a3-1685d6668d6e)
 ![Cuplikan layar 2024-09-19 021148](https://github.com/user-attachments/assets/bcb5c5d6-56e0-4c14-8a19-2fa86ea6d120)
-
-
 
 ### Stegography
 
