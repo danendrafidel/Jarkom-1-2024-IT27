@@ -67,6 +67,10 @@
    4. Dari gambar ATP, EH, dan KJK, hasil yang ditemukan adalah frasa "pahlawan keamanan siber."
    5. Flag ditemukan
 
+![Cuplikan layar 2024-09-19 015055](https://github.com/user-attachments/assets/0de293fc-3c0d-40d6-b06a-3f3ae8c53ffc)
+![Cuplikan layar 2024-09-19 015032](https://github.com/user-attachments/assets/7025379d-8b95-4b7b-ad35-a0569e87cb5a)
+![Cuplikan layar 2024-09-19 015000](https://github.com/user-attachments/assets/3fd6471c-3214-448b-8460-cf4cf8d70749)
+
 ### InneRCE
 
   Langkah Penyelesaian :
@@ -81,6 +85,12 @@ cGxzIHJhdGUgc29hbCBpbmkK
 ```
   6. Hasil decoding: "pls rate soal ini".
   7. Flag ditemukan
+![Cuplikan layar 2024-09-19 015221](https://github.com/user-attachments/assets/22952d05-7848-4c43-b1a9-de2ce43358a1)
+![Cuplikan layar 2024-09-19 015210](https://github.com/user-attachments/assets/b1799abf-6d15-406c-9d9c-246aa94b16b0)
+![Cuplikan layar 2024-09-19 015202](https://github.com/user-attachments/assets/74d5d682-d956-4f50-a47f-3ea77c075e31)
+![Cuplikan layar 2024-09-19 015148](https://github.com/user-attachments/assets/2b171bc9-fc35-4ef5-b5a3-06f805cf2d9d)
+![Cuplikan layar 2024-09-19 015124](https://github.com/user-attachments/assets/b8dc091d-ca1a-42c2-b35e-0089ef7e92db)
+
 
 ### Gajah Terbang (Server Record)
 
