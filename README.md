@@ -54,6 +54,8 @@
   ```
   4. Hasil fingerprint ditemukan
   5. Muncul Flag
+![Cuplikan layar 2024-09-19 000852](https://github.com/user-attachments/assets/11956c4e-dbee-42cb-9e8d-f15a7536a2b7)
+
 
 ### Stegography
 
@@ -89,6 +91,12 @@ cGxzIHJhdGUgc29hbCBpbmkK
   4. Lakukan penghitungan manual jumlah pengguna dalam database, ditemukan ada 4 pengguna.
   5. Temukan email admin jojohermawan@gmail.com, dan dekripsi hash password yang menghasilkan admin1234.
   6. Flag ditemukan
+
+![Cuplikan layar 2024-09-18 235545](https://github.com/user-attachments/assets/bd2102bb-19f0-4506-af77-91464f2d24c4)
+![Cuplikan layar 2024-09-19 000052](https://github.com/user-attachments/assets/073ecc02-3e22-4d43-a8ca-6584eaf8bf4d)
+![Cuplikan layar 2024-09-19 000021](https://github.com/user-attachments/assets/415f4457-7ea6-4c82-9077-653d021ecd48)
+
+
 
 ### EZ
 
