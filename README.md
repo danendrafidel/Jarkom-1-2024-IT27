@@ -91,7 +91,7 @@
 
 ## Stegography
 
-   ## Langkah Penyelesaian :
+   ### Langkah Penyelesaian :
 
   1. Download file pcap kemudian ekstrak
   ![Cuplikan layar 2024-09-20 195729](https://github.com/user-attachments/assets/c14540db-4973-4906-9d3d-ed19b68cbdcd)
@@ -152,9 +152,9 @@ for image_file in image_files:
 
   5. Lalu baca secara terbalik untuk mendapatkan flagnya dan hasilnya "pahlawan keamanan siber"
 
-### InneRCE
+## InneRCE
 
-  Langkah Penyelesaian :
+  ### Langkah Penyelesaian :
 
   1. Filter frame contains "shel" untuk mencari file yang berhubungan dengan webshell, pada urutan no 98 akan menemukan webshellnya dan untuk melihat waktu upload hacker dilihat pada bagian bawah untuk jam uploadnya
   ![Cuplikan layar 2024-09-20 201232](https://github.com/user-attachments/assets/194feee5-c30e-4372-943b-9fab71601756)
@@ -182,9 +182,9 @@ cGxzIHJhdGUgc29hbCBpbmkK
   ![Cuplikan layar 2024-09-20 201132](https://github.com/user-attachments/assets/7d14acb5-d240-4649-a48b-744ea2c91c64)
   ![Cuplikan layar 2024-09-20 201110](https://github.com/user-attachments/assets/49ad0960-d135-4728-a070-728cc5e90f5b)
 
-### Gajah Terbang (Server Record)
+## Gajah Terbang (Server Record)
 
-  Langkah Penyelesaian:
+  ### Langkah Penyelesaian:
   1. Untuk mencari DB yang digunakan coba-coba untuk memasukkan port setiap DB yang ada atau disini saya melihat terdapat PGSQL atau PostgreSQL
   ![Cuplikan layar 2024-09-20 204224](https://github.com/user-attachments/assets/71ff2023-d096-4444-b9ec-9e4dc3d5ce40)
 
@@ -205,9 +205,9 @@ cGxzIHJhdGUgc29hbCBpbmkK
   ![Cuplikan layar 2024-09-20 203220](https://github.com/user-attachments/assets/5f75e94e-a4f3-4d2b-904e-02342abdd9a6)
   ![Cuplikan layar 2024-09-20 203205](https://github.com/user-attachments/assets/48523232-6d49-498c-a57c-ed750f0a834b)
 
-### EZ
+## EZ
 
-  Langkah Penyelesaian:
+  ### Langkah Penyelesaian:
   1. Membuka stream/packet pertama dan follow untuk melihat isinya
      ![image](https://github.com/user-attachments/assets/89bf524c-52ed-47b5-9945-30cc461362b8)
   2. Melihat port berapa yang digunakan oleh stream tersebut
@@ -215,9 +215,9 @@ cGxzIHJhdGUgc29hbCBpbmkK
   3. Setelah selesai, maka Flagnya ditemukan
      ![Screenshot (146)](https://github.com/user-attachments/assets/93664775-dec1-4db6-a97b-35efd85a8a68)
 
-### FTP Login
+## FTP Login
 
-  Langkah Penyelesaian:
+  ### Langkah Penyelesaian:
   1. Filter packet list dengan keyword "successful", karena pertanyannya yang berhasil login
      ![Screenshot (161)](https://github.com/user-attachments/assets/a387bae2-ed99-43c9-8780-18fa03522a3c)
   2. Menjawab pertnyaan tentang username dan passwordnya 
@@ -225,9 +225,9 @@ cGxzIHJhdGUgc29hbCBpbmkK
   3. Flagnya ditemukan
      ![Screenshot 2024-09-18 221534](https://github.com/user-attachments/assets/f35700f4-f506-4570-b2f4-49be94970c1c)
 
-### Packet Barrage
+## Packet Barrage
 
-  Langkah Penyelesaian:
+ ### Langkah Penyelesaian:
   1. Dari data pada soal illegal, stream yang dipilih menggunakan 172.21.88.207 sehingga saya mencoba memasukkan 172.21.80.1 sebagai attackernya
      ![image](https://github.com/user-attachments/assets/2240c06b-c345-48b5-832e-19a72b1963e2)
   2. Stream yang digunakan dipilih dengan filter packet list keywordnya "GET"
@@ -237,9 +237,9 @@ cGxzIHJhdGUgc29hbCBpbmkK
   5. Flagnya ditemukan
      ![image](https://github.com/user-attachments/assets/7d43236d-552e-4f7d-aefe-fd80f4d8cc3d)
 
-### Surprise
+## Surprise
 
-  Langkah Penyelesaian:
+  ### Langkah Penyelesaian:
   1. Filter packet list dengan keyword "success"
      ![image](https://github.com/user-attachments/assets/0251fcb1-c7da-49b6-a3b2-5ab525f49a22)
   2. Lalu menjawab dengan jenis FTP (baris pertama isi file) yang digunakan dalam file stream tersebut
@@ -254,9 +254,9 @@ cGxzIHJhdGUgc29hbCBpbmkK
      ![Screenshot (158)](https://github.com/user-attachments/assets/3d38d963-44d6-4717-be30-e6ef360f63f9)
 
   
-### Malicious
+## Malicious
 
-  Langkah Penyelesaian:
+  ### Langkah Penyelesaian:
   1. Filter dengan keyword **http.request.method == "GET"** dikarenakan get menunjukkan berapa kali attacker mencoba untuk mendapatkan informasi dari server
      ![Screenshot (169)](https://github.com/user-attachments/assets/31aa19df-95d3-4a35-a45b-a12e8a4bf634)
      
@@ -272,9 +272,9 @@ cGxzIHJhdGUgc29hbCBpbmkK
   5. Setelah menjawab pertanyaan dari kode ASCII, maka flagnya ditemukan
      ![image](https://github.com/user-attachments/assets/b84c3afc-2ef5-4c76-ae99-146b109481ff)
 
-### Corporate Breach
+## Corporate Breach
 
-  Langkah Penyelesaian:
+ ### Langkah Penyelesaian:
   1. Saya filter dengan keyword **http** dan follow stream pertamanya yang terdapat indikasi attacker
      ![image](https://github.com/user-attachments/assets/31b7d304-4607-416a-8736-d8939f7296ca)
   2. Selanjutnya saya mencoba beberapa email yang saya filter menggunakan packet details **"@gmail.com"**
@@ -285,4 +285,29 @@ cGxzIHJhdGUgc29hbCBpbmkK
      ![Screenshot (152)](https://github.com/user-attachments/assets/5b42f320-bd72-4157-8e1a-ed14f2c415ba)
   5. Flagnya ditemukan 
   ![Screenshot (154)](https://github.com/user-attachments/assets/3834b9dd-fd46-454e-a9e3-ee119a6cef42)
-  
+
+# Tambahan Pengerjaan (REVISI)
+
+##  22 Nightmare
+
+### Langkah Penyelesaian :
+
+1. Dapatkan list file dngan export objects FTP untuk menjawab pertanyaan pertama yaitu Sh1k4.jpg
+![Cuplikan layar 2024-09-21 005528](https://github.com/user-attachments/assets/a72773d5-b5cb-4b3c-9f4b-154fb98ad7e7)
+![Cuplikan layar 2024-09-21 005623](https://github.com/user-attachments/assets/25543c82-f58c-4f50-a568-8cc02130d9ef)
+
+2. Kemudian save file dan melihat preview gambar lalu muncul pesan NUN
+![Cuplikan layar 2024-09-21 005918](https://github.com/user-attachments/assets/04e53d83-a129-43c5-845e-1e461a3351db)
+
+3. Lalu lihat angka urutan stream setelah melakukan filter pada noko.py
+![Cuplikan layar 2024-09-21 010309](https://github.com/user-attachments/assets/8faf34eb-1af3-4263-84ab-b0ee116d166e)
+
+4. Pada clue yang diletakkan di dalam file noko.py lakukan dekrip dari angka binary + XOR key
+![Cuplikan layar 2024-09-21 011140](https://github.com/user-attachments/assets/b30a5f90-d045-4de6-91bb-97888cc9a3b1)
+![Cuplikan layar 2024-09-21 010356](https://github.com/user-attachments/assets/909e4cee-3e74-49e1-9447-98475138ce00)
+
+5. Flag didapatkan
+![Cuplikan layar 2024-09-21 011258](https://github.com/user-attachments/assets/43c13fba-7079-4368-a3da-9574c54ee112)
+
+
+
