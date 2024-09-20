@@ -7,109 +7,180 @@
 | 1   | Danendra Fidel Khansa | 5027231063 |
 | 2   | Farida Qurrotu A'yuna | 5027231015 |
 
-### Advancing Sanity
+## Advancing Sanity
 
-  Langkah Penyelesaian : 
+  ### Langkah Penyelesaian : 
 
-  1. Filter frame contains “username”.
-  2. Filter frame containts “.txt”.
-  3. Pada Clue3.txt ada kalimat untuk membuka PPT.
-  4. Saat melihat Peraturan Soal Shift pada PPT terdapat sesuatu yang harus kita decode menggunakan base64.
+  1. Filter dengan http contains “username” untuk menemukan usernamenya yaitu **JaneD03**
+  ![Cuplikan layar 2024-09-20 191847](https://github.com/user-attachments/assets/1b9abdfd-fab4-4ca4-b4a9-d5ebdf538242)
+
+  2. Filter dengan http containts “.txt”. lalu ditemukan file Clue3.txt
+  ![Cuplikan layar 2024-09-20 192042](https://github.com/user-attachments/assets/68fe0ee3-69d0-4679-8108-932df79db5d9)
+
+  3. Pada Clue3.txt dibawah kata tersebut kita diarahkan untuk membuka PPT peraturan soal shift jarkom
+  4. Saat melihat Peraturan Soal Shift pada PPT terdapat sesuatu kode yang harus kita decode menggunakan base64.
   5. Input hasil Decodenya
-  6. Flag muncul
 
-![Cuplikan layar 2024-09-19 000257](https://github.com/user-attachments/assets/0b63b5a2-da5b-47ab-81d3-3121c1689003)
-![Cuplikan layar 2024-09-19 021936](https://github.com/user-attachments/assets/5bf36d7c-22ca-4f96-b48b-430ad73278da)
-![Cuplikan layar 2024-09-19 010931](https://github.com/user-attachments/assets/f2f8852a-bc03-4571-a9c4-aeba84d9ffc5)
+  ![Cuplikan layar 2024-09-19 021936](https://github.com/user-attachments/assets/c5746a9f-31ea-497e-b4fe-a4e1729976ea)
+  ![Cuplikan layar 2024-09-19 010931](https://github.com/user-attachments/assets/cc5dd92d-c9b7-4b50-9738-fe4725f3fef9)
+  
+  7. Flag muncul
+  ![Cuplikan layar 2024-09-20 192159](https://github.com/user-attachments/assets/81012aef-cbe4-4b61-8ba8-efe256692725)
 
-### Pegawai Negeri Sebelah
+## Pegawai Negeri Sebelah
 
-  Langkah Penyelesaian:
+  ### Langkah Penyelesaian:
 
-  1. Gunakan filter TCP pada Wireshark untuk mencari file pns.csv.
+  1. Gunakan filter TCP pada Wireshark untuk mencari info STOR data_pns.csv setelah itu lakukan find and select.
+  ![Cuplikan layar 2024-09-20 193032](https://github.com/user-attachments/assets/fc4881e5-74dc-4ced-8322-cd8923be6c4e)
+  ![Cuplikan layar 2024-09-20 193057](https://github.com/user-attachments/assets/d78db605-e491-4175-a33c-d0180182bf32)
+
   2. Setelah file ditemukan, lakukan filter dengan keyword "password"
-     ![image](https://github.com/user-attachments/assets/2b7ce85f-a6d6-4e96-9a3a-02105df6465d)
-  4. Lanjut pada paket-paket yang berkaitan.
-     ![image](https://github.com/user-attachments/assets/d93b4b6a-3f57-497a-98e6-aee098f5f7be)
+  ![image](https://github.com/user-attachments/assets/2b7ce85f-a6d6-4e96-9a3a-02105df6465d)
+  
+  3. Lanjut pada paket-paket yang berkaitan.
+  ![image](https://github.com/user-attachments/assets/d93b4b6a-3f57-497a-98e6-aee098f5f7be)
+  
+  4. Flag ditemukan
+  ![Screenshot (145)](https://github.com/user-attachments/assets/70769ff5-c9a7-4dc1-bda2-7b92d9b654ef)
+
+## Illegal Breakthrough
+
+  #### Langkah Penyelesaian:
+
+  1. Filter http.response pada Wireshark, kemudian cari yang ip belakangnya 207, ditemukan 172.21.88.207
+  ![Cuplikan layar 2024-09-20 193729](https://github.com/user-attachments/assets/322bf522-d562-4f30-b1cf-20dc8f20cd7b)
+  ![Cuplikan layar 2024-09-20 193800](https://github.com/user-attachments/assets/c79e9a41-879a-4a8a-9b30-96763b5e7071)
+
+  2. Pada http.response tersebut cari info yang found bukan not found dan follow httpnya lalu ditemukan port 1917
+  3. Endpoint berada disebelah post 
+  4. Jawaban soal tools yang digunakan Fuzz Faster U Fool v2.1.0-dev, namun perlu dicari singkatan dari tools tersebut menjadi ffuf-v2.1.0-dev
+  ![Cuplikan layar 2024-09-20 193822](https://github.com/user-attachments/assets/5c26f32a-d6ef-4bc0-bc28-58605eabe852)
+
   5. Flag ditemukan
-     ![Screenshot (145)](https://github.com/user-attachments/assets/70769ff5-c9a7-4dc1-bda2-7b92d9b654ef)
+  ![Cuplikan layar 2024-09-20 193641](https://github.com/user-attachments/assets/eea82829-a2a2-4a6f-a6ba-c9c6f1ee71d8)
+![Cuplikan layar 2024-09-20 193630](https://github.com/user-attachments/assets/b519711e-1ce2-487f-a714-9bb8b375e895)
 
-![Cuplikan layar 2024-09-19 000257](https://github.com/user-attachments/assets/bb23a573-f8c8-4ce9-8835-e4b60c7ee1b7)
-![Cuplikan layar 2024-09-19 010931](https://github.com/user-attachments/assets/99de537d-531c-4962-81e6-de57f0340bb8)
-![Cuplikan layar 2024-09-19 011715](https://github.com/user-attachments/assets/7ec5326f-5f91-445f-96e5-61f871bbc38b)
-![Cuplikan layar 2024-09-19 011705](https://github.com/user-attachments/assets/ec484556-d19e-4b33-ba41-896fd5dd4c39)
+     
+## Rizzset
 
-### Illegal Breakthrough
+  ### Langkah Penyelesaian :
 
-  Langkah Penyelesaian:
+  1. Filter dan ketikkan dns setelah tu display filter lg menggunakan CTRL + F kemudian ditemukan domain www.its.ac.id
+  ![Cuplikan layar 2024-09-20 194917](https://github.com/user-attachments/assets/5fe99b02-dbfd-48ed-accb-982ca4bfb5ce)
 
-  1. Filter http.response pada Wireshark.
-  2. Cari paket dengan IP belakang 207.
-  3. Lakukan pencarian lebih lanjut pada paket yang mengandung kata kunci "found".
-  4. Jawaban soal dan tools yang digunakan, yaitu ffuf-v2.1.0-dev, ditemukan di dalam paket yang berkaitan.
-  5. Flag ditemukan
-![Cuplikan layar 2024-09-19 011330](https://github.com/user-attachments/assets/6a94b306-b49d-451b-89cc-d11c7dc5e11c)
-![Cuplikan layar 2024-09-19 011354](https://github.com/user-attachments/assets/94c02213-9108-4c7b-bd28-1b2b2dcdc226)
-![Cuplikan layar 2024-09-19 022231](https://github.com/user-attachments/assets/52e585a9-02c1-44c9-b11e-16a56d4cb754)
+  2. Setelah itu cari ip nya berbeda dari yang lain yaitu 103.94.189.5
+  ![Cuplikan layar 2024-09-20 195142](https://github.com/user-attachments/assets/67968e07-baba-4365-aff7-5f5722363fba)
 
-### Rizzset
-
-  Langkah Penyelesaian :
-
-  1. Filter paket DNS pada Wireshark, kemudian temukan IP terkait di bagian pojok kanan bawah.
-  2. Clone repository JARM dengan perintah berikut:
+  3. Clone repository JARM dengan perintah berikut:
   ```py
   git clone https://github.com/armory/jarm.git
   cd jarm
   pip install -r requirements.txt
   ```
-  3. Jalankan perintah berikut untuk melakukan JARM fingerprinting terhadap domain target:
+  4. Jalankan perintah berikut untuk melakukan JARM fingerprinting terhadap domain target:
   ```py
   python jarm.py www.its.ac.id
   ```
-  4. Hasil fingerprint ditemukan
-  5. Muncul Flag
-![Cuplikan layar 2024-09-19 000852](https://github.com/user-attachments/assets/11956c4e-dbee-42cb-9e8d-f15a7536a2b7)
-![Cuplikan layar 2024-09-19 021156](https://github.com/user-attachments/assets/2654b0f2-4fb5-4cf4-82a3-1685d6668d6e)
-![Cuplikan layar 2024-09-19 021148](https://github.com/user-attachments/assets/bcb5c5d6-56e0-4c14-8a19-2fa86ea6d120)
+  5. Hasil fingerprint ditemukan
+  ![Cuplikan layar 2024-09-19 000852](https://github.com/user-attachments/assets/1bb4dd8d-47ef-4e1c-a379-5180e864788f)
 
-### Stegography
+  6. Muncul Flag
+  ![Cuplikan layar 2024-09-20 194643](https://github.com/user-attachments/assets/b0580544-d31b-4dc8-af69-f0268fc87f31)
 
-   Langkah Penyelesaian :
 
-   1. Gunakan filter frame contains "png" pada Wireshark.
-   2. Ekspor objek dan simpan gambar terkait.
-   3. Gunakan script reversed.py yang sudah dimodifikasi untuk mendekripsi pesan di dalam gambar.
-   4. Dari gambar ATP, EH, dan KJK, hasil yang ditemukan adalah frasa "pahlawan keamanan siber."
-   5. Flag ditemukan
+## Stegography
 
-![Cuplikan layar 2024-09-19 015055](https://github.com/user-attachments/assets/0de293fc-3c0d-40d6-b06a-3f3ae8c53ffc)
-![Cuplikan layar 2024-09-19 015032](https://github.com/user-attachments/assets/7025379d-8b95-4b7b-ad35-a0569e87cb5a)
-![Cuplikan layar 2024-09-19 015000](https://github.com/user-attachments/assets/3fd6471c-3214-448b-8460-cf4cf8d70749)
-![Cuplikan layar 2024-09-19 020535](https://github.com/user-attachments/assets/ee5996ac-2ab1-459d-a875-b26bd96d8d4b)
-![Cuplikan layar 2024-09-19 020520](https://github.com/user-attachments/assets/f48fe7aa-5814-4066-8d0b-5c1e11653d2b)
+   ## Langkah Penyelesaian :
 
+  1. Download file pcap kemudian ekstrak
+  ![Cuplikan layar 2024-09-20 195729](https://github.com/user-attachments/assets/c14540db-4973-4906-9d3d-ed19b68cbdcd)
+
+  2. Lalu filter dengan frame contains "png", lalu export object -> pilih FTP DATA -> lalu save all, hitung gambarnya dan berjumlah 13
+  ![Cuplikan layar 2024-09-20 195950](https://github.com/user-attachments/assets/c91cb1b7-2935-42f6-bc02-54046983f466)
+  ![Cuplikan layar 2024-09-20 200031](https://github.com/user-attachments/assets/de5a2403-b48c-4aa4-86f7-95c113281012)
+  ![Cuplikan layar 2024-09-20 200009](https://github.com/user-attachments/assets/b11a2872-3314-4ff7-a718-cbda7c52ce57)
+
+  3. Lalu untuk mengurutkan gambarnya dengan merubah script reversed.py nya
+  ```py
+  from PIL import Image
+
+def decode_image_reversed(image_path):
+    img = Image.open(image_path)
+    img = img.convert("RGB")
+    pixels = img.load()
+
+    binary_message = ""
+    for i in range(img.width):
+        for j in range(img.height):
+            r, g, b = pixels[i, j]
+            
+            r_bin = format(r, '08b')
+            binary_message += r_bin[-1]
+
+    message = ""
+    for i in range(0, len(binary_message), 8):
+        byte = binary_message[i:i + 8]
+        char = chr(int(byte, 2))
+        
+        if message.endswith("EOF"):
+            break
+        message += char
+
+    message = message.replace("EOF", "")
+
+    reversed_message = message[::-1]
+    return reversed_message
+
+# List image file
+image_files = [
+    "AI.png", "ATP.png", "EH.png", "IMK.png", "IOT.png", "KJK.png",
+    "KWA.png", "SBD.png", "SISOP.png", "SOC.png", "SOKA.png",
+    "TKA.png", "TKTI.png"
+]
+
+# Decode dan print pesan dari image
+for image_file in image_files:
+    decoded_message_reversed = decode_image_reversed(image_file)
+    print(f"Pesan terbalik dari {image_file}: {decoded_message_reversed}")
+```
+  4. lalu run script py nya pake "python3 reversed.py" setelah itu akan muncul tulisan terbalik pada gambarnya yaitu pada gambar ATP, EH, KJK
+  ```py
+  python3 reversed.py
+  ```
+![Cuplikan layar 2024-09-20 200710](https://github.com/user-attachments/assets/1d353aeb-9814-466b-976c-5867881739e7)
+
+  5. Lalu baca secara terbalik untuk mendapatkan flagnya dan hasilnya "pahlawan keamanan siber"
 
 ### InneRCE
 
   Langkah Penyelesaian :
 
-  1. Filter frame contains "shel" untuk mencari file yang berhubungan dengan webshell.
-  2. Fokus pada timestamp 2024-09-16 13:18:05.
-  3. Cari hostname pada pojok kanan untuk file upload.php_server-app dan upload webshell dengan nama idzoyyshell.php.
-  4. Jalankan command whoami sebagai command pertama.
-  5. Cari paket yang berisi echo dan decode string berikut:
+  1. Filter frame contains "shel" untuk mencari file yang berhubungan dengan webshell, pada urutan no 98 akan menemukan webshellnya dan untuk melihat waktu upload hacker dilihat pada bagian bawah untuk jam uploadnya
+  ![Cuplikan layar 2024-09-20 201232](https://github.com/user-attachments/assets/194feee5-c30e-4372-943b-9fab71601756)
+
+  2. Kemudian frame contains "shell" untuk mencari endpointnya kemudian follow dan ditemukan "/upload.php" lalu mencari hostname dengan filter frame contains "hostname" follow setelah itu dibagian bawah terdapat hostnamenya yaitu server-app lalu gabung menjadi /upload.php_server-app
+  ![Cuplikan layar 2024-09-20 201350](https://github.com/user-attachments/assets/7c18709c-1d03-4b2e-a448-e60597223faa)
+  ![Cuplikan layar 2024-09-20 201320](https://github.com/user-attachments/assets/1a61e382-f439-424f-8d82-4f4b6ff52d95)
+
+  3. Kembali lagi ke frame contains "shell" lalu lihat bagian info get untuk nama webshellnya yaitu idzoyyshell.php
+  ![Cuplikan layar 2024-09-20 201706](https://github.com/user-attachments/assets/d019fa39-c25b-45f6-aa62-ed7e5798cf89)
+
+  5. Lalu untuk command pertama cek pada baris info get, disebelah cmd terdapat 'whoami" sebagai command yg pertama di masukkan
+  ![Cuplikan layar 2024-09-20 201730](https://github.com/user-attachments/assets/e47e4463-eed2-4ba9-b2fd-89163e640da1)
+
+  6. Back kemudian cari info yang ada echo"nya di info, kemudian dipaling bawah ada full name request dicopy diantara 20%
+  ![Cuplikan layar 2024-09-20 201856](https://github.com/user-attachments/assets/6fe44d89-c425-44ce-96aa-b636fc49e025)
+
 ```
 cGxzIHJhdGUgc29hbCBpbmkK
 ```
-  6. Hasil decoding: "pls rate soal ini".
-  7. Flag ditemukan
-![Cuplikan layar 2024-09-19 015221](https://github.com/user-attachments/assets/22952d05-7848-4c43-b1a9-de2ce43358a1)
-![Cuplikan layar 2024-09-19 015210](https://github.com/user-attachments/assets/b1799abf-6d15-406c-9d9c-246aa94b16b0)
-![Cuplikan layar 2024-09-19 015202](https://github.com/user-attachments/assets/74d5d682-d956-4f50-a47f-3ea77c075e31)
-![Cuplikan layar 2024-09-19 015148](https://github.com/user-attachments/assets/2b171bc9-fc35-4ef5-b5a3-06f805cf2d9d)
-![Cuplikan layar 2024-09-19 015124](https://github.com/user-attachments/assets/b8dc091d-ca1a-42c2-b35e-0089ef7e92db)
+  7. Hasil decoding: "pls rate soal ini".
+  ![Cuplikan layar 2024-09-20 201935](https://github.com/user-attachments/assets/e8e9a441-0b59-4f3c-9304-11839d872f34)
 
+  8. Flag ditemukan
+  ![Cuplikan layar 2024-09-20 201132](https://github.com/user-attachments/assets/7d14acb5-d240-4649-a48b-744ea2c91c64)
+  ![Cuplikan layar 2024-09-20 201110](https://github.com/user-attachments/assets/49ad0960-d135-4728-a070-728cc5e90f5b)
 
 ### Gajah Terbang (Server Record)
 
