@@ -336,7 +336,7 @@ cGxzIHJhdGUgc29hbCBpbmkK
 1. Hacker mengakes komputer dilihat dari info USB IN
 ![Cuplikan layar 2024-09-21 015638](https://github.com/user-attachments/assets/1c59b2a1-3bbf-493d-b151-483b3820817b)
 
-2. Yang dilakukan Hacker tersebut karena pada pcap ini berisi USB jadi bisa memakai repository untuk USB keystroke untuk mengetahui apa yang dilakukan hacker tersebut
+2. Yang dilakukan Hacker tersebut karena pada pcap ini berisi USB jadi bisa memakai repository ini [untuk USB keystroke](https://github.com/5h4rrK/CTF-Usb_Keyboard_Parser.git) untuk mengetahui apa yang dilakukan hacker tersebut
 ![Cuplikan layar 2024-09-21 020656](https://github.com/user-attachments/assets/ff104c4a-ae77-48db-96a4-c39e3931adc7)
 
 3. Ditemukan jawaban yang hurufnya double tetapi itu dapat diartikan dengan menghilangkan huruf yang ganda "ini pasword wifinya apa ya?"
