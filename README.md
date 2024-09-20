@@ -309,5 +309,22 @@ cGxzIHJhdGUgc29hbCBpbmkK
 5. Flag didapatkan
 ![Cuplikan layar 2024-09-21 011258](https://github.com/user-attachments/assets/43c13fba-7079-4368-a3da-9574c54ee112)
 
+## Gajah Terbang (Attacker Recon)
 
+### Langkah Penyelesaian :
+1. Nama penyerang didapatkan dari querry UPDATE yang mengubah admin jojo ke id=3 menjadi admin yaitu kuntoaji
+![Cuplikan layar 2024-09-21 012857](https://github.com/user-attachments/assets/f03519c2-d7da-4092-bd4b-650f16b2d81d)
 
+2. Kemudian dekrip password attacker
+![Cuplikan layar 2024-09-21 013244](https://github.com/user-attachments/assets/02449173-c5b7-4edd-b827-ef07cf9173de)
+![Cuplikan layar 2024-09-21 013027](https://github.com/user-attachments/assets/dd00b342-8771-434c-92fd-9c5769cb1db4)
+
+3. Attacker menyerang pada 2024-06-09
+![Cuplikan layar 2024-09-21 013355](https://github.com/user-attachments/assets/77936175-5e9d-41f5-82c7-f86b1033e644)
+
+4. Tabel yang diubah attacker adalah users dan banned_users
+![Cuplikan layar 2024-09-21 013554](https://github.com/user-attachments/assets/d429482e-490f-4369-b767-9b187da638df)
+
+5. Barang yaang dibeli attacker saya coba satu persatu untuk menemukan yang benar dan total barang yang dibeli kemudian flag didapatkan
+![Cuplikan layar 2024-09-21 013737](https://github.com/user-attachments/assets/aa766002-384c-400e-8448-e787a68d8b56)
+![Cuplikan layar 2024-09-21 013811](https://github.com/user-attachments/assets/58b7a14e-dcff-42ad-b46d-6c0fec782bdf)
