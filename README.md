@@ -328,3 +328,22 @@ cGxzIHJhdGUgc29hbCBpbmkK
 5. Barang yaang dibeli attacker saya coba satu persatu untuk menemukan yang benar dan total barang yang dibeli kemudian flag didapatkan
 ![Cuplikan layar 2024-09-21 013737](https://github.com/user-attachments/assets/aa766002-384c-400e-8448-e787a68d8b56)
 ![Cuplikan layar 2024-09-21 013811](https://github.com/user-attachments/assets/58b7a14e-dcff-42ad-b46d-6c0fec782bdf)
+
+## Baby Hengker
+
+### Langkah Penyelesaian :
+
+1. Hacker mengakes komputer dilihat dari info USB IN
+![Cuplikan layar 2024-09-21 015638](https://github.com/user-attachments/assets/1c59b2a1-3bbf-493d-b151-483b3820817b)
+
+2. Yang dilakukan Hacker tersebut karena pada pcap ini berisi USB jadi bisa memakai repository untuk USB keystroke untuk mengetahui apa yang dilakukan hacker tersebut
+![Cuplikan layar 2024-09-21 020656](https://github.com/user-attachments/assets/ff104c4a-ae77-48db-96a4-c39e3931adc7)
+
+3. Ditemukan jawaban yang hurufnya double tetapi itu dapat diartikan dengan menghilangkan huruf yang ganda "ini pasword wifinya apa ya?"
+![Cuplikan layar 2024-09-21 021112](https://github.com/user-attachments/assets/ad63b5ed-b4c8-4101-8c94-aaa945d55ece)
+
+4. Karena error input jawabannya, tidak dapat dilanjutkan untuk step berikutnya
+
+
+
+
