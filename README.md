@@ -220,8 +220,9 @@ cGxzIHJhdGUgc29hbCBpbmkK
   Langkah Penyelesaian:
   1. Filter packet list dengan keyword "successful", karena pertanyannya yang berhasil login
      ![Screenshot (161)](https://github.com/user-attachments/assets/a387bae2-ed99-43c9-8780-18fa03522a3c)
-  2. Setelah menjawab semua maka Flagnya ditemukan
+  2. Menjawab pertnyaan tentang username dan passwordnya 
      ![Screenshot (156)](https://github.com/user-attachments/assets/31c77d30-d760-482c-beaa-1e17f8ed1344)
+  3. Flagnya ditemukan
      ![Screenshot 2024-09-18 221534](https://github.com/user-attachments/assets/f35700f4-f506-4570-b2f4-49be94970c1c)
 
 ### Packet Barrage
@@ -230,7 +231,7 @@ cGxzIHJhdGUgc29hbCBpbmkK
   1. Dari data pada soal illegal, stream yang dipilih menggunakan 172.21.88.207 sehingga saya mencoba memasukkan 172.21.80.1 sebagai attackernya
      ![image](https://github.com/user-attachments/assets/2240c06b-c345-48b5-832e-19a72b1963e2)
   2. Stream yang digunakan dipilih dengan filter packet list keywordnya "GET"
-  3. Mencoba memasukkan angka 1917 sebagai berapa kali attcaker mencoba brute force
+  3. Mencoba memasukkan angka 1917 sebagai berapa kali attacker mencoba brute force
   4. Untuk nama file dan isi file yang disisipkan attacker, saya melihat dalam isi stream tersebut
      ![Screenshot (163)](https://github.com/user-attachments/assets/c6ec9b41-992e-42b2-a26f-e8d327949cea)
   5. Flagnya ditemukan
@@ -247,8 +248,11 @@ cGxzIHJhdGUgc29hbCBpbmkK
      ![image](https://github.com/user-attachments/assets/6e0f48ed-95a2-48ea-bf77-2d670ada481a)
   4. Next stream menemukan kode lalu di compile dan Flagnya ditemukan
      ![Screenshot (160)](https://github.com/user-attachments/assets/fe857501-d662-4cf9-a5f5-478930e12b5c)
-  
-      ![image](https://github.com/user-attachments/assets/060921d8-60be-4e96-acc9-1c8cdb73d567)
+
+     ![image](https://github.com/user-attachments/assets/284279b1-7b92-4917-918f-5b8503c8814c)
+  5. Flagnya ditemukan
+     ![Screenshot (158)](https://github.com/user-attachments/assets/3d38d963-44d6-4717-be30-e6ef360f63f9)
+
   
 ### Malicious
 
@@ -259,7 +263,7 @@ cGxzIHJhdGUgc29hbCBpbmkK
      ![Screenshot (170)](https://github.com/user-attachments/assets/d224a6dc-fb2d-4c3a-a6e3-5d4b07f7af49)
   2. Untuk endpointnya saya melihat pada info stream yang menunjukkan **/index.php**
      ![image](https://github.com/user-attachments/assets/27cd5182-411e-48db-a962-630c7aaa017c)
-  3. Saya menemukan bahwa stream ini menunjukkan bahwa attacker berhasil masuk sehingga saya mencoba memasukkan length dengan angka 153 dan ternyata berhasil
+  3. Saya menemukan bahwa stream ini menunjukkan bahwa attacker berhasil masuk sehingga saya mencoba memasukkan angka 153
      ![image](https://github.com/user-attachments/assets/4ec98380-4837-4a50-bcf7-25cff5d23017)
   
      ![image](https://github.com/user-attachments/assets/ea10d2ac-6538-406f-bbaa-be5710ae6e37)
@@ -270,15 +274,15 @@ cGxzIHJhdGUgc29hbCBpbmkK
 
 ### Corporate Breach
 
-1. Saya filter dengan keyword **http** dan follow stream pertamanya yang terdapat indikasi attacker
-   ![image](https://github.com/user-attachments/assets/31b7d304-4607-416a-8736-d8939f7296ca)
-2. Selanjutnya saya mencoba beberapa email yang saya filter menggunakan packet details **@gmail.com**
-   ![image](https://github.com/user-attachments/assets/78d93f8d-4ae0-4f19-ae47-7b77d01bd120)
-
-   ![Screenshot (153)](https://github.com/user-attachments/assets/48323798-c86b-4680-a5c6-3a84e05d2ae0)
-4. di dalam stream yang mengandung email tersebut, terlihat password yang digunakan untuk menjawab pertanyaan dan Flagnya ditemukan
-   ![Screenshot (154)](https://github.com/user-attachments/assets/3834b9dd-fd46-454e-a9e3-ee119a6cef42)
-   
-   ![Screenshot (152)](https://github.com/user-attachments/assets/5b42f320-bd72-4157-8e1a-ed14f2c415ba)
-
-
+  Langkah Penyelesaian:
+  1. Saya filter dengan keyword **http** dan follow stream pertamanya yang terdapat indikasi attacker
+     ![image](https://github.com/user-attachments/assets/31b7d304-4607-416a-8736-d8939f7296ca)
+  2. Selanjutnya saya mencoba beberapa email yang saya filter menggunakan packet details **"@gmail.com"**
+     ![image](https://github.com/user-attachments/assets/78d93f8d-4ae0-4f19-ae47-7b77d01bd120)
+  
+     ![Screenshot (153)](https://github.com/user-attachments/assets/48323798-c86b-4680-a5c6-3a84e05d2ae0)
+  4. di dalam stream yang mengandung email tersebut, terlihat password yang digunakan  
+     ![Screenshot (152)](https://github.com/user-attachments/assets/5b42f320-bd72-4157-8e1a-ed14f2c415ba)
+  5. Flagnya ditemukan 
+  ![Screenshot (154)](https://github.com/user-attachments/assets/3834b9dd-fd46-454e-a9e3-ee119a6cef42)
+  
