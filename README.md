@@ -185,16 +185,27 @@ cGxzIHJhdGUgc29hbCBpbmkK
 ### Gajah Terbang (Server Record)
 
   Langkah Penyelesaian:
-  1. Gunakan filter tcp.port == 5432 untuk PostgreSQL dan tcp.port == 6969 untuk mengecek port lain.
-  2. Temukan Debian pada salah satu file melalui filter tcp.options -> tcp.stream eq 9.
-  3. Pada file yang sama, di pojok kiri atas, temukan credentials untuk user s1gm4 dan nama database sigmaskibidigyatrizzzz.
-  4. Lakukan penghitungan manual jumlah pengguna dalam database, ditemukan ada 4 pengguna.
-  5. Temukan email admin jojohermawan@gmail.com, dan dekripsi hash password yang menghasilkan admin1234.
-  6. Flag ditemukan
+  1. Untuk mencari DB yang digunakan coba-coba untuk memasukkan port setiap DB yang ada atau disini saya melihat terdapat PGSQL atau PostgreSQL
+  ![Cuplikan layar 2024-09-20 204224](https://github.com/user-attachments/assets/71ff2023-d096-4444-b9ec-9e4dc3d5ce40)
 
-![Cuplikan layar 2024-09-18 235545](https://github.com/user-attachments/assets/bd2102bb-19f0-4506-af77-91464f2d24c4)
-![Cuplikan layar 2024-09-19 000052](https://github.com/user-attachments/assets/073ecc02-3e22-4d43-a8ca-6584eaf8bf4d)
-![Cuplikan layar 2024-09-19 000021](https://github.com/user-attachments/assets/415f4457-7ea6-4c82-9077-653d021ecd48)
+  2. Untuk mengetahui port DBnya disini saya menginspect dan merasa banyak port 6969 dan saya merasa itu port DBnya
+  ![Cuplikan layar 2024-09-20 204248](https://github.com/user-attachments/assets/1353ae5d-58c3-4c9a-98d1-7c608be26549)
+
+  3. Lakukan slide secara manual dan di baris bawah kemudian follow untuk mengecek isi file yang berisi linux jenis apa dan isi databasenya
+  4. Pada file yang di follow, di pojok kiri atas ditemukan credentials untuk user s1gm4 dan nama database sigmaskibidigyatrizzzz.
+  5. Mengitung user di db dengan melihat QUERRY SELECT USERS, dan ada 4 user
+  6. Ditemukan email admin jojohermawan@gmail.com pada QUERRY SELECT USERS juga
+  ![Cuplikan layar 2024-09-20 204316](https://github.com/user-attachments/assets/25cbca6e-ee87-49fa-80e7-564e36dca5fa)
+
+  7. Copy password admin dan dekripsi (9c93ccd78b2076528346216b3b2f701e6) hash password yang menghasilkan admin1234.
+  ![Cuplikan layar 2024-09-19 000021](https://github.com/user-attachments/assets/bef818c3-82b8-4f22-800c-3276ba7dcc27)
+
+  8. Flag ditemukan
+  ![Cuplikan layar 2024-09-20 203229](https://github.com/user-attachments/assets/d37ae4d9-aeea-4afa-ac7f-b78b85370b60)
+  ![Cuplikan layar 2024-09-20 203220](https://github.com/user-attachments/assets/5f75e94e-a4f3-4d2b-904e-02342abdd9a6)
+  ![Cuplikan layar 2024-09-20 203205](https://github.com/user-attachments/assets/48523232-6d49-498c-a57c-ed750f0a834b)
+
+
 
 ## EZ
 
