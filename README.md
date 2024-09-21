@@ -7,6 +7,30 @@
 | 1   | Danendra Fidel Khansa | 5027231063 |
 | 2   | Farida Qurrotu A'yuna | 5027231015 |
 
+## Daftar Isi
+- [Write Up Praktikum](#write-up-praktikum)
+  - [Advancing Sanity](#advancing-sanity)
+  - [Pegawai Negeri Sebelah](#pegawai-negeri-sebelah)
+  - [Illegal Breakthrough](#illegal-breakthrough)
+  - [Rizzset](#rizzset)
+  - [Stegography](#stegography)
+  - [InneRCE](#innerce)
+  - [Gajah Terbang (Server Record)](#gajah-terbang-server-record)
+  - [EZ](#ez)
+  - [FTP Login](#ftp-login)
+  - [Packet Barrage](#packet-barrage)
+  - [Surprise](#surprise)
+  - [Malicious](#malicious)
+  - [Corporate Breach](#corporate-breach)
+- [Tambahan Pengerjaan (REVISI)](#tambahan-pengerjaan-revisi)
+  - [22 Nightmare](#22-nightmare)
+  - [Gajah Terbang (Attacker Recon)](#gajah-terbang-attacker-recon)
+  - [Baby Hengker](#baby-hengker)
+  - [Adult Hengker](#adult-hengker)
+  - [Simba](#simba)
+
+# Write Up Praktikum
+
 ## Advancing Sanity
 
   ### Langkah Penyelesaian : 
