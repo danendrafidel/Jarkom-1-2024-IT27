@@ -388,3 +388,7 @@ cGxzIHJhdGUgc29hbCBpbmkK
 ![Cuplikan layar 2024-09-21 155718](https://github.com/user-attachments/assets/eeacc068-0977-46ab-9109-0086ed73a8e4)
 
 2. Setelah itu untuk user yang compromise saya tidak dapat menemukannya
+
+## LINK VIDEO REVISI
+
+[https://drive.google.com/drive/folders/1EWzdoxLgNEUtCijUtXdmhx3lAeDT0q7c?usp=sharing](REVISI)
