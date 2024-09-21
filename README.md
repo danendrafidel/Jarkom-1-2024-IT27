@@ -344,6 +344,23 @@ cGxzIHJhdGUgc29hbCBpbmkK
 
 4. Karena error input jawabannya, tidak dapat dilanjutkan untuk step berikutnya
 
+## Adult Hengker
 
+### Langkah Penyelesaian :
 
+1. Pertama kita diminta untuk mencari device apa yang digunakan hacker ini seperti soal Baby Hengker yang isi dari pcapnya berupa USB lalu disini saya menemukan input usbnya berupa mouse
+![Cuplikan layar 2024-09-21 161402](https://github.com/user-attachments/assets/b02ed0ed-11aa-46b0-9090-a7fd1f57a7fa)
 
+2. Setelah itu sama seperti sebelumnya untuk mennggambarkan apa yang ditulis hacker tersebut memakai repository untuk mencari [mouse visualizer](https://github.com/WangYihang/USB-Mouse-Pcap-Visualizer.git) namun disini saya tidak bisa memakainya karena masalah device issues dan anomali
+![Cuplikan layar 2024-09-21 163753](https://github.com/user-attachments/assets/46524c99-1800-4d1f-9015-7a65c62fd011)
+
+3. Sehingga saya hanya bisa mencapai step sini saja
+
+## Simba
+
+### Langkah Penyelesaian :
+
+1. Service yang dipakai pada pcap ini adalah simba, saya menemukannya melalui bruteforce untuk mencoba 1 persatu jenis server yang dipakai
+![Cuplikan layar 2024-09-21 155718](https://github.com/user-attachments/assets/eeacc068-0977-46ab-9109-0086ed73a8e4)
+
+2. Setelah itu untuk user yang compromise saya tidak dapat menemukannya
