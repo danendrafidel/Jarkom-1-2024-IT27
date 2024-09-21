@@ -391,4 +391,4 @@ cGxzIHJhdGUgc29hbCBpbmkK
 
 ## LINK VIDEO REVISI
 
-(https://drive.google.com/drive/folders/1EWzdoxLgNEUtCijUtXdmhx3lAeDT0q7c?usp=sharing)[REVISI]
+[REVISI](https://drive.google.com/drive/folders/1EWzdoxLgNEUtCijUtXdmhx3lAeDT0q7c?usp=sharing)
